@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <img src="https://drive.google.com/file/d/11Ia8KoAKhZZ59xyuNZ_2F4YhQruBIgcO/view?usp=sharing" alt="">
+    </header>
+
+    <div class="intro">
+      <h1>Developers Club</h1>
+      <p>Thank you for giving me this opportunity to introduce myself my name is Nikita Awasarmol. I am from Aurangabad.
+        I am currently pursuing my undergraduation in computer Science and Technology in Btech. Now I would like to talk
+        about my areas of interests, I am interested in web development and its various technologies. Today by attending
+        this workshop I took my first step towards my web development journey.</p>
+    </div>
+
+    <div class="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Class</th>
+          <th>Percentage</th>
+          <th>Board/University</th>
+          <th>Passing Year</th>
+        </tr>
+        <tr>
+          <td>Xth</td>
+          <td>90%</td>
+          <td>State Board</td>
+          <td>2017</td>
+        </tr>
+        <tr>
+          <td>XIIth</td>
+          <td>90%</td>
+          <td>State Board</td>
+          <td>2019</td>
+        </tr>
+        <tr>
+          <td>UG</td>
+          <td>90%</td>
+          <td>BATU</td>
+          <td>2023</td>
+        </tr>
+      </table>
+       </div>
+      <div class="skills">
+        <h2>Skills:</h2>
+        <ul>
+          <li>Web development</li>
+          <li>Communication skills</li>
+          <li>Coding</li>
+          <li>Team Work</li>
+        </ul>
+      </div>
+      <div class="hobbies">
+        <h2>Hobbies:</h2>
+        <ul>
+          <li>Reading</li>
+          <li>Coding</li>
+          <li>Driving</li>
+          <li>Cooking</li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>MAIL: 
+            <a href="mailto:developersclub404@gmail.com">developersclub404@gmail.com
+          </a></li>
+          <li>Phone number: 123456789</li>
+          <li>Address: Beed by pass, MIT.</li>
+        </ul>
+      </div>
+
+    <div class="declaration">
+      <h2>Declaration</h2>
+      <p>I solemnly declare that all the above information is correct to the best of my knowlegde and belief.</p>
+    </div>
+    
+    <div class="getdate">
+      <p><b>Date: </b></p>
+      <div id="date"></div>
+    </div>
+
+    
+    <div classhttps://cdn-icons-png.flaticon.com/512/25/25231.png="gettime">
+      <p><b>Time: </b></p>
+      <div id="time"></div>
+    </div> 
+
+    <div class="links">
+      <h2>Social Links</h2>
+      <a href="https://instagram.com/developers_club_404">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="" width="50px">
+      </a>
+      <a href="https://linkedin.com/in/developers-club-b27704240">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="" width="50">
+      </a>
+      <a href="https://github.com">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" width="50">
+      </a>
+
+      
+    </div>
+   
+  </div>
+
+</body>
+  <script>
+  var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    document.getElementById("date").innerHTML = date;
+    var time = today.getHours()+':'+today.getMinutes()+":"+today.getSeconds();
+    document.getElementById("time").innerHTML = time;
+  </script>
+
+</html>
