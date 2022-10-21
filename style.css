@@ -7,8 +7,8 @@ body {
 .container {
   max-width: 750px;
   margin: auto;
-  border: 1px solid black;
-  background: #696880;
+  border: 1px solid rgb(0, 0, 0);
+  background: #ffffff;
   padding: 30px 90px 30px 90px;
   font-family: 'sans-serif';
 }
@@ -48,7 +48,7 @@ li {
 
 header {
   padding: 20px 0px 20px 0px;
-  background-color: #4fabff;
+  background-color: #000000;
 }
 
 .links img {
